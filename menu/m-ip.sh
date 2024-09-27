@@ -18,7 +18,7 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "         \033[0;36mTelegram${NC} t.me/diwayaa"
+    echo -e "         \033[0;36mTelegram${NC} t.me/masansor"
     echo -e "      ${GREEN}WhatsApp${NC} wa.me/+6281775700114"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 read -n 1 -s -r -p "  Press any key to back on menu"
@@ -139,7 +139,7 @@ TEXT="
 <i>Automatic Notification from Github</i>
 <code>🧿───────────────────🧿</code>
 <b>Klik To Create Link Instalaion</b>
-https://jpst.it/3KS7j
+https://pastebin.com/raw/uxbRqC1K
 "
 
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
