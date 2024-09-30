@@ -80,7 +80,7 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
+curl -s https://pastebin.com/raw/pkCp1LzH > /etc/github/api
 curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
 curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
 clear
