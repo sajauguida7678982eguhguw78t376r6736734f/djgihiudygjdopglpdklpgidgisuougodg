@@ -216,7 +216,7 @@ if [[ -e /etc/github/api ]]; then
 m-ip
 else
 mkdir /etc/github
-echo "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" > /etc/github/api
+echo "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" > /etc/github/api
 echo "hannaugo@gmail.com" > /etc/github/email
 echo "king-vpn" > /etc/github/username
 m-ip
