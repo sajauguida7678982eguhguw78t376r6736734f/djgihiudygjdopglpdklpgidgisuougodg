@@ -80,9 +80,9 @@ if [[ $key == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/pkCp1LzH > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/api
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/email
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -129,9 +129,9 @@ if [[ $kode == "RMBLVIP" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/api
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/email
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -160,9 +160,9 @@ MYIP2=$(curl -sS ipv4.icanhazip.com)
 author2=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/api
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/email
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -191,9 +191,9 @@ MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/api
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/email
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -221,9 +221,9 @@ elif [[ $kode == $Key ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
-curl -s https://pastebin.com/raw/dbARjW8L > /etc/github/api
-curl -s https://pastebin.com/raw/X9jwQZv4 > /etc/github/email
-curl -s https://pastebin.com/raw/d0Enn5Mm > /etc/github/username
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/api
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/email
+curl -s https://pastebin.com/raw/C47vfR1A > /etc/github/username
 clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
@@ -373,7 +373,7 @@ echo -e "${BIBlue}╭═══════════════════�
 echo -e "${BIBlue}│ \033[1;37mPlease select a your Choice to Set Domain${BIBlue}│${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.tepllovpn.eu.org          ${NC}"                                        
+echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.kingvpn.my.id          ${NC}"                                        
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 until [[ $domain2 =~ ^[1-5]+$ ]]; do 
 read -p "   Please select numbers 1 sampai 1 : " domain2
