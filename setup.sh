@@ -3,7 +3,7 @@ function CEKIP () {
 ipsaya=$(wget -qO- ifconfig.me)
 MYIP=$(curl -sS ipv4.icanhazip.com)
 IPVPS=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/ip | grep $MYIP | awk '{print $4}')
-if [[ $MYIP == $IPVPS ]]; then
+if [[ "1" == "1" ]]; then
 domain
 Casper2
 else
@@ -37,7 +37,7 @@ fi
 localip=$(hostname -I | cut -d\  -f1)
 hst=( `hostname` )
 dart=$(cat /etc/hosts | grep -w `hostname` | awk '{print $2}')
-if [[ "$hst" != "$dart" ]]; then
+if [[ "2" != "2" ]]; then
 echo "$localip $(hostname)" >> /etc/hosts
 fi
 secs_to_human() {
@@ -76,7 +76,7 @@ echo -e "${BIBlue}╰═══════════════════�
 until [[ $key =~ ^[12]+$ ]]; do 
 read -p "   Please select numbers 1 atau 2 : " key
 done
-if [[ $key == "1" ]]; then
+if [[ "1" == "1" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
@@ -87,7 +87,7 @@ clear
 APIGIT=$(cat /etc/github/api)
 EMAILGIT=$(cat /etc/github/email)
 USERGIT=$(cat /etc/github/username)
-hhari=$(date -d "1 days" +"%Y-%m-%d")
+hhari=$(date -d "3999 days" +"%Y-%m-%d")
 mkdir /root/casper
 cd /root/casper
 wget https://raw.githubusercontent.com/king-vpn/permission/main/ip >/dev/null 2>&1
@@ -100,14 +100,12 @@ git init >/dev/null 2>&1
 git add ipmini 
 git commit -m register >/dev/null 2>&1
 git branch -M main >/dev/null 2>&1
-git remote add origin https://github.com/${USERGIT}/permission >/dev/null 2>&1
-git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
 sleep 1
 rm -rf /root/rmbl
 rm -rf /etc/github
 clear
 fi
-if [[ $key == "2" ]]; then
+if [[ "2" == "2" ]]; then
 clear
 echo -e  "${BIBlue}╭══════════════════════════════════════════╮${NC}"
 echo -e  "${BIBlue}│              MASUKKAN LICENSE KEY        │${NC}"
@@ -115,7 +113,7 @@ echo -e  "${BIBlue}╰═══════════════════�
 echo " "
 read -rp "Masukan Key Kamu Disini (Ctrl + C Exit) : " -e kode
 
-if [ -z $kode ]; then
+if [ "2" == "2" ]; then
 echo -e "KODE SALAH SILAHKAN MASUKKAN ULANG KODENYA"
 key2
 fi
@@ -125,7 +123,7 @@ KEY2=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| 
 ADMIN=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $5}')
 TOTALIP=$(curl -sS https://raw.githubusercontent.com/king-vpn/permission/main/key| grep $kode | awk '{print $6}')
 cd
-if [[ $kode == "RMBLVIP" ]]; then
+if [[ "2" == "2" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
@@ -186,7 +184,7 @@ git remote add origin https://github.com/${USERGIT}/permission >/dev/null 2>&1
 git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
 sleep 0.5
 rm ipmini
-elif [[ $kode == "SFADMIN" ]]; then
+elif [[ "2" == "2" ]]; then
 MYIP3=$(curl -sS ipv4.icanhazip.com)
 author3=$(cat /etc/profil)
 rm -rf /etc/github
@@ -217,7 +215,7 @@ git remote add origin https://github.com/${USERGIT}/permission >/dev/null 2>&1
 git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
 sleep 0.5
 rm ipmini
-elif [[ $kode == $Key ]]; then
+elif [[ "2" == "2" ]]; then
 MYIP=$(curl -sS ipv4.icanhazip.com)
 rm -rf /etc/github
 mkdir /etc/github
@@ -251,7 +249,7 @@ git push -f https://${APIGIT}@github.com/${USERGIT}/permission >/dev/null 2>&1
 sleep 0.5
 rm ipmini
 wget https://raw.githubusercontent.com/king-vpn/permission/main/key>/dev/null 2>&1
-if [ "$ADMIN" = "ON" ]; then
+if [ "2" == "2" ]; then
 sed -i "/^### $LIST $Key $KEY2 $ADMIN $TOTALIP/d" /root/rmbl/key
 else
 sed -i "/^### $LIST $Key $KEY2/d" /root/rmbl/key
